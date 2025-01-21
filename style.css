@@ -144,11 +144,6 @@ border: none;
     margin: 0 auto;
     width: 100%;
     text-align: center;
-    height: auto;
-    height: 100vh;
-    margin: 0;
-    
-  
 }
 .main-heading{
     font-weight: bold;
@@ -218,6 +213,30 @@ margin: 40px;
 }
 .read-more3{
     color:rgb(135, 0, 255);
+}
+/* crossver section */
+.next{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 500px;
+    margin: 80px auto;
+    
+}
+.crossber{
+color: rgb(255, 255, 255);
+font-family: Font Awesome 5 Free;
+font-size: 24px;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+background: rgb(254, 163, 1);
 }
 /* media query for mobile */
 @media screen and (max-width:576px){
@@ -301,5 +320,8 @@ letter-spacing: 0%;
 text-align: center;
 margin-top: 10px;
 margin-bottom: 4px;
+    }
+    .next{
+        display: none;
     }
 }
