@@ -133,6 +133,79 @@ border: none;
 .last-word{
     color: skyblue;
 }
+/* main body er card design */
+.main-body{
+    background: linear-gradient(rgba(253, 253, 253, 0.292), rgba(185, 185, 122, 0.5)), 
+    url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    height: 700px;
+}
+.main-heading{
+    font-weight: bold;
+    font-size: 3rem;
+}
+.body-cards{
+   padding-top: 80px;
+   display: flex; 
+   justify-content: space-between;
+   gap: 30px;
+   height: 477px;
+   width: 80%;
+   margin: 0 auto;   
+}
+/* body er vitor card er design */
+.body-card2,.body-card3,.body-card4{
+
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+
+}
+.icon-heading{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 30px;
+}
+.icon-des{
+ color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+}
+.read-more{
+font-family: Quicksand;
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+margin: 40px;
+}
+.read-more1{
+    color: rgb(100, 200, 255); ;
+}
+.read-more2{
+    color: rgb(240, 170, 0);;
+}
+.read-more3{
+    color:rgb(135, 0, 255);
+}
 /* media query for mobile */
 @media screen and (max-width:576px){
     .navber{
