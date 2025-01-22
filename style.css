@@ -262,7 +262,7 @@ background: rgb(254, 163, 1);
     .mobile-navber{
         box-sizing: border-box;
         display: block;
-        width: 100%;
+        width:calc(100%-4px);
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
