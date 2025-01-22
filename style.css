@@ -260,8 +260,9 @@ background: rgb(254, 163, 1);
         display: none;
     }
     .mobile-navber{
+        box-sizing: border-box;
         display: block;
-        width: 92%;
+        width: 100%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
