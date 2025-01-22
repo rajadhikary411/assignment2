@@ -464,6 +464,36 @@ text-align: left;
 .foot-img-background{
     margin-left: -10px;
 }
+.snake-marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .snake-marquee span {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 24px;
+    animation: snake-move 8s linear infinite;
+  }
+
+  @keyframes snake-move {
+    0% {
+      transform: translateX(100%) translateY(0px);
+    }
+    25% {
+      transform: translateX(75%) translateY(-20px);
+    }
+    50% {
+      transform: translateX(50%) translateY(20px);
+    }
+    75% {
+      transform: translateX(25%) translateY(-20px);
+    }
+    100% {
+      transform: translateX(-100%) translateY(0px);
+    }
+  }
 @media screen and (max-width:576px){
 
     body {
