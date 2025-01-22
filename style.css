@@ -383,6 +383,87 @@ padding: 0px 20px;
     text-align: center;
     margin-top: 80px;
 }
+.foot{
+    width: 100%;
+    box-sizing: border-box;
+    background: rgb(1, 172, 253);
+    height: 519px;
+    display: grid;
+    grid-template-columns: 500px 300px 500px;
+    gap: 50px;
+   padding: 120px;
+
+}
+
+.foot1,.foot2,.foot3{
+    
+    width: 100%;
+    
+}
+.foot1-parent{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.foot-heading{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 42.14px;
+font-weight: 700;
+line-height: 39.51px;
+letter-spacing: 0%;
+text-align: left;
+}
+.foot-img-f{
+    height: 80px;
+}
+.foot-des{
+    
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.about-sec{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.about-sec1,.about-sec2,.about-sec3{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 30px;
+}
+.touch-heading{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 26px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+}
+.icon-parent{
+    margin-top: 32px;
+    display: flex;
+    gap: 8px;
+}
+.foot-img-background{
+    margin-left: -10px;
+}
 @media screen and (max-width:576px){
 
     body {
@@ -551,4 +632,60 @@ margin-top: 22px;
 .card-heading-right{
     font-size: 10px;
 }
+.foot{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 60px;
+}
+.foot-heading{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 35.73px;
+font-weight: 700;
+line-height: 33.5px;
+letter-spacing: 0%;
+text-align: left;
+}
+.foot-des{
+    margin-top: -20px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.about-sec{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 20.35px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: -40px;
+}
+.about-sec1,.about-sec2,.about-sec3{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 16.96px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
+.touch-heading{
+    color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 22.04px;
+font-weight: 700;
+line-height: 22.04px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: -40px;
+}
+
 }
