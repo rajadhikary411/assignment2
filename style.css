@@ -532,14 +532,23 @@ margin-top: 22px;
         width: 90%;
         margin: 0 auto;
         margin-top: 50px;
+        
+        
        
     }
     .story-card2{
-        
-        
+        width: 100%;
     }
+
 .story-card-right{
-    width: 210.09px;
-height: 300.59px;
+    box-sizing: border-box;
+    width: 157.09px;
+    height: 300.59px;
+}
+.btn-sec-right{
+    font-size: 10.34px;
+}
+.card-heading-right{
+    font-size: 10px;
 }
 }
