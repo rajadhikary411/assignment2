@@ -24,6 +24,7 @@
     align-items: center;
 }
 /* school lekha ta er property thik koresi */
+
 .heading-title{
     font-weight: 700;
     font-size: 2rem;
@@ -41,6 +42,7 @@ ul{
 }
 /* navber er niche underline baad dite hobe */
 .link-navber1,.link-navber2,.link-navber3,.link-navber4{
+    font-family: Quicksand;
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -386,7 +388,7 @@ padding: 0px 20px;
 .foot{
     width: 100%;
     box-sizing: border-box;
-    background: rgb(1, 172, 253);
+    background: rgb(116, 196, 234);
     height: 519px;
     display: grid;
     grid-template-columns: 500px 300px 500px;
@@ -466,34 +468,44 @@ text-align: left;
 }
 .snake-marquee {
     width: 100%;
+    height: 50px;
     overflow: hidden;
     position: relative;
+    font-size: 1.5rem;
+    text-shadow: 4px 4px 4px skyblue;
   }
 
+  
   .snake-marquee span {
     display: inline-block;
+    position: absolute;
     white-space: nowrap;
     font-size: 24px;
-    animation: snake-move 8s linear infinite;
+    font-weight: bold;
+    color: orange;
+    animation: snake-motion 5s linear infinite;
   }
 
-  @keyframes snake-move {
+  
+  @keyframes snake-motion {
     0% {
-      transform: translateX(100%) translateY(0px);
+      transform: translate(100%, 0);
     }
     25% {
-      transform: translateX(75%) translateY(-20px);
+      transform: translate(75%, -20px); 
     }
     50% {
-      transform: translateX(50%) translateY(20px);
+      transform: translate(50%, 20px); 
     }
     75% {
-      transform: translateX(25%) translateY(-20px);
+      transform: translate(25%, -20px); 
     }
     100% {
-      transform: translateX(-100%) translateY(0px);
+      transform: translate(-100%, 0); 
     }
   }
+  
+ 
 @media screen and (max-width:576px){
 
     body {
